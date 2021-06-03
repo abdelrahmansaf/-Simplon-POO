@@ -37,11 +37,4 @@ Nickel !
 
 ## Battlefield
 
-Tu a une erreur dans `simpleFight`
-Etat de la list army
-Ligne 17 army = [W0, W1, W2, W3], unit_1 = Wx
-Ligne 18 army = [W1, W2, W3], unit_1 = W0
-ligne 21 army = [W1, W2, W3], unit_1 = W1
-
-Pareil pour l'armee 2.
-Les tests passent mais le comportement n'est pas le bon (Puisqu'a chaque fois il y a des soldat qui ne ce bat pas).
+Nickel

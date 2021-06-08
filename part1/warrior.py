@@ -37,7 +37,7 @@ class Warrior:
     if dmg > self._life:
       self._life = 0
     elif dmg < 0:
-      dmg = dmg* - 1
+      dmg = dmg
     else:
       self._life = self._life - dmg
 
@@ -45,6 +45,4 @@ class Warrior:
     """:return bool: is Warrior Alive"""
     if self._life <= 0:
       self._alive = False
-    else:
-      self._alive = True
     return self._alive

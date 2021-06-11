@@ -9,16 +9,12 @@ def fight(unit_1, unit_2):
   while unit_1.isalive():
     unit_2.damaged(unit_1.strength)
     if isinstance(unit_1, Vampire):
-      unit_1.Vam() 
-    
-    if unit_2.isalive() == False:
+      unit_1.Vam()
+
+    if not unit_2.isalive():
       return True
-    
+
     unit_1.damaged(unit_2.strength)
-    if isinstance(unit_2,Vampire):
+    if isinstance(unit_2, Vampire):
       unit_2.Vam()
-
   return False
-
-  
-          

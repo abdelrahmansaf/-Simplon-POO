@@ -29,8 +29,7 @@ class Warrior:
 
   def damaged(self, dmg):
     """
-    methods called when warrior receive damaged. Update _alive and _life..
-
+    methods called when warrior receive damaged. Update _alive and _life
     :param dmg: damage received.
     """
     if dmg > self._life:

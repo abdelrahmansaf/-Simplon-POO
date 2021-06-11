@@ -1,4 +1,3 @@
-
 from part1.warrior import Warrior
 
 class Defender(Warrior):
@@ -20,5 +19,3 @@ class Defender(Warrior):
     """
     dmg -= self.defense
     super().damaged(dmg)
-
-# defender.damaged()
